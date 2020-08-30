@@ -1,0 +1,851 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&subset=latin-ext');
+
+/* Common */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 50px;
+    color: #f4f4f4;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #003473;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+button:focus,
+a:focus {
+    outline: unset;
+}
+
+section {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.text-headline {
+    font-size: 20px !important;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.text-blue {
+    color: #003473;
+}
+
+.text-white {
+    color: #f4f4f4;
+}
+
+.text-yellow {
+    color: #fccc2c;
+}
+
+.text-light-blue {
+    color: #93d2f3;
+}
+
+.text-normal {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-small {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.text-tip-eva {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.text-tip-eva:before {
+    content: '\201e';
+}
+
+.text-tip-eva:after {
+    content: '\201d';
+}
+
+.text-small-bold {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.text-big-bold {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arrow-right {
+    background: transparent url("../FischerGroupSamkova/media/Samkova/images/arrow-right.svg") no-repeat;
+    background-size: 10px 12px;
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    /*min-width: 320px;*/
+}
+
+.page-content {
+    margin-top: 85px;
+}
+
+.btn.focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Rating symbols */
+.rating {
+    display: inline-block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.star-1 {
+    width: 12px;
+    height: 9px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -10px -10px;
+}
+
+.star-2 {
+    width: 26px;
+    height: 9px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -10px -10px;
+}
+
+.star-3 {
+    width: 35px;
+    height: 9px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -10px -10px;
+}
+
+.star-4 {
+    width: 48px;
+    height: 9px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -10px -10px;
+}
+
+.circle-1 {
+    width: 6px;
+    height: 5px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -78px -10px;
+}
+
+.circle-2 {
+    width: 16px;
+    height: 5px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -78px -10px;
+}
+
+.circle-3 {
+    width: 25px;
+    height: 5px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -78px -10px;
+}
+
+.circle-4 {
+    width: 33px;
+    height: 5px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -78px -10px;
+}
+
+.leaf-1 {
+    width: 9px;
+    height: 9px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -10px -39px;
+}
+
+.leaf-2 {
+    width: 22px;
+    height: 9px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -10px -39px;
+}
+
+.leaf-3 {
+    width: 35px;
+    height: 9px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -10px -39px;
+}
+
+.leaf-4 {
+    width: 46px;
+    height: 9px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/rating-symbols.png") -10px -39px;
+}
+
+/* Navigation */
+.navbar {
+    z-index: 2000;
+    padding: 1.3rem 5px;
+}
+
+.navbar.navbar-light .nav-link,
+.navbar.navbar-light .nav-link:focus {
+    color: #003473;
+}
+
+.navbar.navbar-light .nav-link:hover {
+    color: #003473;
+    text-shadow: 1px 0 0 #003473;
+}
+
+.navbar.navbar-light .active .nav-link {
+    color: #003473;
+    text-shadow: 1px 0 0 #003473;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+#navbarNav .nav-link.active {
+    text-shadow: 1px 0 0 #003473;
+    color: #003473;
+}
+
+.navbar-nav li.nav-item:last-child a.nav-link {
+    padding-right: 0;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 0;
+    color: #003473;
+}
+
+.navbar-toggler-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='-2 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 52, 115, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10'  d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-wrapper-bg {
+    background-color: white !important;
+    -webkit-box-shadow: 0 7px 11px -4px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0 7px 11px -4px rgba(0, 0, 0, 0.43);
+    box-shadow: 0 7px 11px -4px rgba(0, 0, 0, 0.43);
+    transition: all 250ms;
+}
+
+/* Section Video-opener */
+section#video {
+    background-color: #fff;
+}
+
+section#video .video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    max-width: 1170px;
+    max-height: 680px;
+}
+
+section#video .video-opener-bg {
+    background: transparent url("../FischerGroupSamkova/media/Samkova/images/video-area-bg.png") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 3;
+    max-width: 1920px;
+    max-height: 680px;
+    margin-top: 0;
+}
+
+section#video img.video-opener-poster {
+    display: block;
+    position: relative;
+    z-index: 2;
+    max-width: 1170px;
+    max-height: 680px;
+    width: 100%;
+    height: auto;
+}
+
+section#video img.video-opener-poster {
+    /* Turn on/off video poster */
+    visibility: hidden;
+}
+
+section#video video {
+    width: 100%;
+    max-width: 1170px;
+    height: auto;
+    max-height: 680px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+/* Section Hotels offers */
+section#hotel-offers {
+    background: transparent url("../FischerGroupSamkova/media/Samkova/images/mountain-bg.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    margin-top: -48px;
+    padding-top: 100px;
+}
+
+section#hotel-offers .hotel {
+    padding: 0 45px;
+}
+
+section#hotel-offers a {
+    color: #fff;
+}
+
+section#hotel-offers a > div {
+    /*border: 1px solid transparent;*/
+}
+
+section#hotel-offers a div.hotel-card > div.hotel-img-wrapper {
+    overflow: hidden;
+    max-height: 200px;
+}
+
+section#hotel-offers a:hover {
+    text-decoration: none;
+}
+
+section#hotel-offers a:hover > div {
+    /*border: 1px solid rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .1);*/
+}
+
+section#hotel-offers .hotel.slick-slide a img {
+    transition: all 150ms;
+    width: 100%;
+}
+
+section#hotel-offers .hotel.slick-slide a:hover img {
+    transform: translateZ(0) scale(1.05);
+}
+
+section#hotel-offers p.intro-text {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+section#hotel-offers div.country-filter-wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#hotel-offers div.country-filter-wrapper a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 0;
+    padding: 0 10px 0 0;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    max-height: 45px;
+    margin: 15px;
+    float: left;
+}
+
+section#hotel-offers div.country-filter-wrapper a span.flag {
+    transform: scale(0.6);
+}
+
+section#hotel-offers div.country-filter-wrapper a:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+section#hotel-offers div.country-filter-wrapper a.active {
+    background-color: #fff;
+    color: #003473;
+}
+
+section#hotel-offers div.eva-tip {
+    line-height: 1;
+    margin-top: 3px;
+    height: auto;
+}
+
+section#hotel-offers .offer-price {
+    line-height: 1;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 25px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+section#hotel-offers .slick-dots {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #fff !important;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    opacity: 1 !important;
+}
+
+section#hotel-offers .slick-dots button {
+    font-family: 'Open Sans', sans-serif !important;
+    /*color: #fff !important;
+    position: relative;
+    bottom: 15px;*/
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+section#hotel-offers .slick-dots li button {
+    font-weight: 400;
+    color: #fff;
+}
+
+section#hotel-offers .hotel-arrow-link {
+    height: 12px;
+    width: 10px;
+    position: relative;
+    top: -10px;
+}
+
+/* Section References */
+section#references {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 25px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+section#references span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+    color: #f4f4f4;
+    opacity: 0.2;
+}
+section#references p {
+    font-size: 16px;
+}
+
+section#references .ref-wrapper {
+    height: 150px;
+    padding-bottom: 30px;
+}
+
+section#references .ref-text {
+    position: absolute;
+    max-width: 222px;
+}
+
+@media (min-width: 1200px) {
+    section#references .ref-wrapper {
+        height: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    section#references span {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 575px) {
+    section#references p {
+        font-size: 14px;
+    }
+
+    section#references .ref-wrapper {
+        height: 300px;
+    }
+    section#references{
+        height: 460px;
+    }
+}
+
+/* Section Competition */
+section#competition {
+    padding-top: 40px;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+section#competition p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #003473;
+}
+
+span.btn-competition {
+    display: block;
+}
+
+.btn-none {
+    border: none;
+}
+
+.btn-competition {
+    width: 200px; height: 70px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/buttons.png") -10px -10px;
+}
+
+.btn-competition:hover {
+    width: 200px; height: 70px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/buttons.png") -10px -100px;
+}
+
+@media (min-width: 1200px) {
+    section#competition img {
+        margin-top: -70px;
+    }
+}
+
+@media (max-width: 991px) {
+    section#competition img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    section#competition .btn-competition {
+        display: block;
+        position: relative;
+        bottom: -43px;
+        z-index: 1;
+    }
+
+    .btn-competition {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .btn-competition:hover {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* Section eShop */
+section#eshop {
+    background: transparent url("../FischerGroupSamkova/media/Samkova/images/board-bg.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 420px;
+}
+
+section#eshop {
+    margin-top: 70px
+}
+
+section#eshop p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #003473;
+}
+
+.eshop-content {
+    padding: 35px;
+}
+
+.btn-none {
+    border: none;
+}
+
+.btn-eshop-left {
+    width: 140px; height: 36px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/buttons.png") -230px -122px;
+}
+
+.btn-eshop-left:hover {
+    width: 140px; height: 36px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/buttons.png") -10px -190px;
+}
+
+.btn-eshop-right {
+    width: 160px; height: 36px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/buttons.png") -230px -10px;
+}
+
+.btn-eshop-right:hover {
+    width: 160px; height: 36px;
+    background: url("../FischerGroupSamkova/media/Samkova/images/buttons.png") -230px -66px;
+}
+
+@media (max-width: 991px) {
+    .eshop-content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .eshop-content {
+        padding: 0 90px 0 90px;
+    }
+
+    section#eshop h2 {
+         font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .eshop-content {
+        padding: 10px;
+    }
+
+    section#eshop {
+        background: transparent url("../FischerGroupSamkova/media/Samkova/images/bg-eshop-small.png") no-repeat top center !important;
+        margin-bottom: 100px;
+        height: 745px;
+    }
+
+    section#eshop h2 {
+        font-size: 22px;
+    }
+
+    section#eshop p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    section#eshop .mt-320{
+        margin-top: 3.5rem!important;
+    }
+}
+/* Camps */
+section#camps {
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+section#camps p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #003473;
+}
+
+@media (max-width: 991px) {
+    section#camps h2,
+    section#camps p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    section#camps h2 {
+        font-size: 30px;
+    }
+
+    section#hotel-offers div.country-filter-wrapper a {
+        font-size: 11px;
+        margin: 6px 11px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    section#hotel-offers div.country-filter-wrapper a {
+        font-size: 11px;
+        margin: 6px 11px;
+    }
+
+    section#camps h2 {
+        font-size: 22px;
+    }
+
+    section#camps p {
+        font-size: 14px;
+    }
+}
+
+/* Footer */
+footer {
+    background: #003473 url("../FischerGroupSamkova/media/Samkova/images/KKCG-pageflip.png") bottom left no-repeat;
+    padding: 40px 55px 40px 55px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #4e85c5;
+}
+
+.kkcg{
+    position: absolute;
+    left: -36px;
+    bottom: -28px;
+    height: 88px;
+    width: 130px;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    footer p {
+        font-size: 14px;
+    }
+}
+
+/* Media queries */
+
+
+@media (min-width: 1200px) {
+    section .container, nav .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    section#competition h2 {
+        text-align: center;
+    }
+
+    section#hotel-offers div.hotel-content {
+        /*height: unset !important;*/
+        min-height: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    section#camps .img-camps {
+        display: block;
+        position: relative;
+        left: -108px;
+        top: 11px;
+    }
+
+    section#hotel-offers div.hotel-content {
+        /*height: unset !important;*/
+        min-height: 100px;
+    }
+
+    section#hotel-offers .hotel.slick-slide a img {
+        min-height: 200px;
+    }
+
+    section#hotel-offers div.eva-tip {
+        height: 75px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        padding: .3rem 28px;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+        height: auto;
+    }
+
+    .page-content {
+        margin-top: 48px;
+    }
+
+    section#video .video-wrapper {
+        top: 0;
+    }
+
+    section#competition p {
+        text-align: center;
+    }
+
+    section#competition a img {
+        display: block !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+
+    }
+
+    section#hotel-offers .hotel {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    section#competition h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    section#competition h2 {
+        font-size: 22px;
+    }
+
+    .navbar-brand img {
+        width: 145px;
+        height: auto;
+    }
+
+    section#competition p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    section#hotel-offers .offer-price {
+        padding-top: 13px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 836px) {
+    section#hotel-offers span.text-tip-eva {
+        display: block;
+        height: 75px;
+    }
+
+    section#hotel-offers div.hotel-content {
+        height: 115px;
+    }
+}
